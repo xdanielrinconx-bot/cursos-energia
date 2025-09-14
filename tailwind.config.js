@@ -5,11 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        sans: ["Inter", "sans-serif"], // 👈 add Inter font globally
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
