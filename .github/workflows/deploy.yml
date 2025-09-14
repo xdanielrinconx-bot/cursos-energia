@@ -22,10 +22,10 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2   # ✅ updated version
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2   # ✅ this is the correct one
         with:
-          path: dist
+          path: ./dist
 
   deploy:
     needs: build
